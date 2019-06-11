@@ -2,11 +2,11 @@ import network
 import comMorse
 import ledArduino
 
-ADDESS = ""
+ADDRESS = "10.0.0.116"
 PORT = 1111
 
 socket = network.newServerSocket()
-socket.bind((ADDESS,PORT))
+socket.bind((ADDRESS,PORT))
 
 while True :
     socket.listen(10)

@@ -1,7 +1,7 @@
 import network
 import comMorse
 
-ADDRESS =""
+ADDRESS ="10.0.0.116"
 PORT = 1111
 
 while True:
