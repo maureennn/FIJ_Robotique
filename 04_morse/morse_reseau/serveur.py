@@ -18,7 +18,7 @@ while True :
     #notre communication
 
     message = thread.clientsocket.recv(4096)
-    morse = message.decode("etf-8")
+    morse = message.decode("utf-8")
 
     print("message reçu :", morse)
     lettre = comMorse.decode(morse)
